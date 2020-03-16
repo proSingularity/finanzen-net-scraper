@@ -1,0 +1,25 @@
+{
+    "name": "finanzen-net-scraper",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npm run dev",
+        "dev": "ts-node ./src/main.ts"
+    },
+    "author": "Mirco Kraenz",
+    "license": "ISC",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.5",
+        "typescript": "^3.8.3"
+    },
+    "devDependencies": {
+        "@types/cheerio": "^0.22.16",
+        "@types/node": "^13.9.1",
+        "@types/node-fetch": "^2.5.5",
+        "@types/request-promise": "^4.1.45"
+    }
+}
